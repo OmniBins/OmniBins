@@ -2,7 +2,7 @@ name: Update OmniBins.github.io
 on:
   push:
     branches:
-      - master
+      - main
     paths:
       - "yml/**.yml"
 
@@ -24,7 +24,7 @@ jobs:
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           external_repository: OmniBins/OmniBins.github.io
-          publish_branch: master
+          publish_branch: main
           publish_dir: yml
           destination_dir: _omnibins
           enable_jekyll: true
