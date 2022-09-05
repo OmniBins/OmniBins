@@ -1,25 +1,26 @@
 ---
-Name: Pnputil.exe
-Description: Used for installing drivers
+Name: Spotify
+Binary: Spotify.exe
+Description: Spotify is a proprietary Swedish audio streaming service
 Author: Hai vaknin (lux)
 Created: 2020-12-25
 Commands:
-  - Command: pnputil.exe -i -a C:\Users\hai\Desktop\mo.inf
+  - Command: Press F1
     Description: Used for installing drivers
-    Usecase: Add malicious driver
-    Category: Execute
-    Privileges: Administrator
+    Usecase: Escape Jail
+    Category: Launch Program
+    Privileges: None
     MitreID: T1547
     OperatingSystem: Windows 10,7
 Full_Path:
-  - Path: C:\Windows\system32\pnputil.exe
+  - Path: \%AppData%\Roaming\Spotify\Spotify.exe
 Code_Sample: 
   - Code: https://github.com/LuxNoBulIshit/test.inf/blob/main/inf
 Detection:
   - Sigma: https://github.com/SigmaHQ/sigma/blob/a8a0d546f347febb0423aa920dbc10713cc1f92f/rules/windows/process_creation/process_creation_lolbins_suspicious_driver_installed_by_pnputil.yml
 Acknowledgement:
-  - Person: Hai Vaknin(Lux)
-    Handle: '@LuxNoBulIshit'
-  - Person: Avihay eldad
-    Handle: '@aloneliassaf'
+  - Person: John Doe
+    Handle: '@JohnDoe1337'
+  - Person: Alice Bobby
+    Handle: '@AliceBb'
 ---
