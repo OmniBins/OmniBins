@@ -6,14 +6,14 @@ Author: Hai vaknin (lux)
 Created: 2020-12-25
 Commands:
   - Command: Press F1
-    Description: Used for installing drivers
+    Description: Used to show the online help page.
     Usecase: Escape Jail
     Category: Launch Program
     Privileges: None
     MitreID: T1547
-    OperatingSystem: Windows 10,7
+    OperatingSystem: Windows 11,10,8,7
 Full_Path:
-  - Path: \%AppData%\Roaming\Spotify\Spotify.exe
+  - Path: '%AppData%\Roaming\Spotify\Spotify.exe'
 Code_Sample: 
   - Code: https://github.com/LuxNoBulIshit/test.inf/blob/main/inf
 Detection:
