@@ -9,7 +9,7 @@ Commands:
     Description: Executes cmd.exe
     Usecase: Execute an arbitrary file using a signed binary.
     Category: Execute
-    Privileges: None
+    Privileges: User
     MitreID: T1547
     OperatingSystem: Windows 11,10,8,7
 Full_Path:

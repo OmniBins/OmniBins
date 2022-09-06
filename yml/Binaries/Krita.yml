@@ -9,7 +9,7 @@ Commands:
     Description: Executes a provieded Python script. The .py has to be omitted from the filename. If no function name is provided, the __main__ function gets called.
     Usecase: Execute a python script with Kritarunner as parent.
     Category: Execute
-    Privileges: None
+    Privileges: User
     MitreID: T1547
     OperatingSystem: Windows 11,10,8,7
 Full_Path:
