@@ -52,8 +52,9 @@ Interesting functionality can include:
 
 Guidelines are not done yet. Should you want to get started anyway, feel free to do so. I've jotted down some Applications which could be interesting, but didn't review myself yet for "unexpected" functionality.
 
-<details><summary>View</summary>
-<p>
+<details>
+<summary>View List</summary>
+
 * Spotify
 * iTunes
 * Winamp
@@ -110,5 +111,4 @@ Guidelines are not done yet. Should you want to get started anyway, feel free to
 * OpenSSL
 * PuTTY
 * XAMPP
-</p>
 </details>
