@@ -50,7 +50,9 @@ Interesting functionality can include:
 
 ## Contributing
 
-Guidelines are not done yet. Should you want to get started anyway, feel free to do so. I've jotted down some Applications which could be interesting, but didn't review myself yet for "unexpected" functionality.
+Guidelines are not done yet. Should you want to get started anyway, feel free to do so. There is a [template](https://github.com/OmniBins/OmniBins/blob/main/Template.yml) with field descriptions available. Should you want an easier start, go look at the existing OmniBins, as they most certainly have potential to do more than currently documented.
+
+I've jotted down some Applications which could be interesting, but didn't review myself yet for "unexpected" functionality.
 
 <details>
 <summary>View List</summary>
