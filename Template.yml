@@ -1,0 +1,46 @@
+# This is the template to be used for adding new OmniBins
+---
+# Name of the application which the 'abused' binary is part of
+Name: Notepad++
+# Name of binary 'abused' binary
+Binary: gup.exe
+# Short description of the application
+Description: Notepad++ is a text and source code editor for use with Microsoft Windows.
+GeneralInformation:
+  # If the binary is signed
+  # Available options: 'Yes', 'No'
+  IsSigned: 'Yes'
+  # Version of the parent application (in this case Notepad++) under which this was tested
+  TestedVersion: 8.4.4
+  # Version of the parent application (in this case Notepad++) under which this was tested
+  # Available options: 'Console', 'GUI'
+  Interface: Console
+# Your name / handle
+Author: ZeMooX
+# Current date in YYYY-MM-DD format
+Created: 2022-09-07
+Commands:
+    # Example of a command 'abusing' the binary
+  - Command: gup.exe -unzipTo "C:\Windows\System32\cmd.exe" " " " "
+    # Description of what the command does
+    Description: Executes cmd.exe
+    # Possible usecases of the command
+    Usecase: Execute an arbitrary file using a signed binary.
+    # Category which this command belongs to
+    # Available options see: https://github.com/LOLBAS-Project/LOLBAS-Project.github.io/blob/master/_data/functions.yml
+    Category: Execute
+    # Privileges required to run the command
+    # Available options: 'User', 'Administrator'
+    Privileges: User
+# The full path(s) to the binary
+Full_Path:
+  - Path: 'C:\Program Files (x86)\Notepad++\updater\gup.exe'
+# Currently not used, leave as is
+Code_Sample: 
+  - Code: https://github.com/
+# Credit to anyone relevant, including yourself
+Acknowledgement:
+  - Person: ZeMooX
+    # Twitter handle of the person including the @
+    Handle: '@'
+---
