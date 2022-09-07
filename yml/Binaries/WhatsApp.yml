@@ -11,14 +11,10 @@ Commands:
     Category: Execute
     Privileges: Users
     MitreID: T1547
-    OperatingSystem: Windows 11,10,8,7
 Full_Path:
   - Path: '%localappdata%\Whatsapp\Update.exe'
 Code_Sample: 
-  - Code: https://github.com/LuxNoBulIshit/test.inf/blob/main/inf
-Detection:
-  - Sigma: https://github.com/SigmaHQ/sigma/blob/a8a0d546f347febb0423aa920dbc10713cc1f92f/rules/windows/process_creation/process_creation_lolbins_suspicious_driver_installed_by_pnputil.yml
+  - Code: https://github.com/
 Acknowledgement:
   - Person: Jesus Galvez
-    Handle: ''
 ---
