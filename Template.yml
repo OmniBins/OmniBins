@@ -35,6 +35,9 @@ Commands:
 # The full path(s) to the binary
 Full_Path:
   - Path: 'C:\Program Files (x86)\Notepad++\updater\gup.exe'
+# Link(s) to useful information
+Resources:
+  - Link: https://github.com/
 # Currently not used, leave as is
 Code_Sample: 
   - Code: https://github.com/

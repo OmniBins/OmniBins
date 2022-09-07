@@ -16,8 +16,8 @@ Commands:
     Privileges: User
 Full_Path:
   - Path: 'C:\Program Files (x86)\Notepad++\updater\gup.exe'
-Code_Sample: 
-  - Code: https://github.com/LuxNoBulIshit/test.inf/blob/main/inf
+Resources:
+  - Link: https://github.com/notepad-plus-plus/wingup/blob/master/src/winmain.cpp
 Acknowledgement:
   - Person: ZeMooX
 ---

@@ -2,6 +2,10 @@
 Name: Krita
 Binary: kritarunner.exe
 Description: Krita is a free and open-source raster graphics editor designed primarily for digital painting and 2D
+GeneralInformation:
+  IsSigned: 'Yes'
+  TestedVersion: 2.92
+  Interface: Console
 Author: ZeMooX
 Created: 2022-09-06
 Commands:
@@ -12,8 +16,9 @@ Commands:
     Privileges: User
 Full_Path:
   - Path: 'C:\Program Files\Krita (x64)\bin\kritarunner.exe'
-Code_Sample: 
-  - Code: https://github.com/
+Resources:
+  - Link: https://github.com/KDE/krita/blob/master/plugins/extensions/pykrita/kritarunner/main.cpp
+  - Link: https://www.reddit.com/r/krita/comments/gdtmm4/kritarunnerexe_is_absolutely_retarded/
 Acknowledgement:
   - Person: ZeMooX
 ---
