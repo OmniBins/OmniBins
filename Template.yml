@@ -28,7 +28,7 @@ Commands:
     Usecase: Execute an arbitrary file using a signed binary.
     # Category which this command belongs to
     # Available options see: https://github.com/LOLBAS-Project/LOLBAS-Project.github.io/blob/master/_data/functions.yml
-    Category: Execute
+    Category: Dump
     # Privileges required to run the command
     # Available options: 'User', 'Administrator'
     Privileges: User
