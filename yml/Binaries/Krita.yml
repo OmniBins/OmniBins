@@ -1,7 +1,7 @@
 ---
 Name: Krita
 Binary: kritarunner.exe
-Description: Krita is a free and open-source raster graphics editor designed primarily for digital painting and 2D
+Description: Krita is a free and open-source raster graphics editor designed primarily for digital painting and 2D.
 GeneralInformation:
   IsSigned: 'Yes'
   TestedVersion: 2.92

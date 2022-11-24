@@ -1,7 +1,7 @@
 ---
 Name: Blender
 Binary: blender.exe
-Description: WhatsApp is an internationally available freeware, cross-platform centralized instant messaging and voice-over-IP service
+Description: WhatsApp is an internationally available freeware, cross-platform centralized instant messaging and voice-over-IP service.
 GeneralInformation:
   IsSigned: 'Yes'
   TestedVersion: 2.92

@@ -1,7 +1,7 @@
 ---
 Name: Firefox
 Binary: firefox.exe
-Description: Firefox is a free and open-source web browser developed by the Mozilla Foundation
+Description: Firefox is a free and open-source web browser developed by the Mozilla Foundation.
 GeneralInformation:
   IsSigned: 'Yes'
   TestedVersion: 104.0.2
