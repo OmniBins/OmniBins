@@ -15,7 +15,7 @@ Commands:
     Category: Execute
     Privileges: Administrator
 Full_Path:
-  - Path: 'C:\ program files\ (x86)kaspersky labetworkagent\kldumper.exe'
+  - Path: 'C:\Program Files(x86)\Kaspersky\labetworkagent\kldumper.exe'
 Resources:
   - Link: https://support.kaspersky.com/common/diagnostics/7641
 Acknowledgement:
